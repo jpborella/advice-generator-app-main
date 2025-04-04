@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--fundo-body);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card);
+    border-radius: 10px;
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card .titulo {
+    color: var(--botao-texto);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.card .texto {
+    color: var(--texto);
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    padding: 23px;
+}
+
+.linha {
+    width: 100%;
+}
+
+.card .botao {
+    background-color: var(--botao-texto);
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    transform: translateY(85%);
+}
+
+.card .botao:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px hsl(150, 100%, 66%);
+}

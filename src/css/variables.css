@@ -1,0 +1,6 @@
+:root {
+    --texto: hsl(193, 38%, 86%);
+    --botao-texto: hsl(150, 100%, 66%);
+    --card: hsl(217, 19%, 24%);
+    --fundo-body: hsl(218, 23%, 16%);
+}
